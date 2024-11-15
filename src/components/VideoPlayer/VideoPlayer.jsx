@@ -4,7 +4,7 @@ import video from "../../assets/videoplayback.mp4";
 const VideoPlayer = ({ playVideo, setPlayVideo }) => {
   const player = useRef(null);
   const closePlayer = (e) => {
-    if (e.target === player) {
+    if (e.target === player.current) {
       setPlayVideo(false);
     }
   };
