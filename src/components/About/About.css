@@ -7,6 +7,7 @@
 }
 
 .about-left {
+  cursor: pointer;
   flex-basis: 40%;
   position: relative;
 }
@@ -32,7 +33,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+.about-left:hover .play-icon {
+  width: 65px;
+  transition: 0.5s;
+}
 .about h3 {
   font-weight: 600;
   font-size: 16px;
