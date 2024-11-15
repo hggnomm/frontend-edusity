@@ -11,5 +11,19 @@
     list-style: none;
     display: inline-block;
     margin-left: 20px;
+}
 
+@media (max-width: 600px) {
+  .footer {
+    display: block;
+    text-align: center;
+  }
+
+  .footer ul li {
+    margin: 10px;
+  }
+
+  .footer ul {
+    margin-top: 10px;
+  }
 }
